@@ -6,13 +6,12 @@ public class Main {
 
 //        BankAccount account = new BankAccount("0005245", "Wisdom Nunakpor", 505);
 //
-//        account.withdraw(510);
-//       account.deposit(10);
+//        account.deposit(10);
 //        account.deposit(-50);
 //        account.withdraw(510);
 //        System.out.println(account.getBalance());
 //        System.out.println(account.getAccountNumber());
-//
+
 //       Student s1 = new Student("22308278", "Wisdom Nunakpor", 90);
 //        Student s2 = new Student("22308136", "Angel Aninwaah", 65);
 //         Student s3 = new Student("22376374", "Theodora Mawusi Martey", 120);
@@ -32,11 +31,11 @@ public class Main {
 //        System.out.println("Score: " + s3.getScore());
 //        System.out.println("Grade: " + s3.getGrade());
 //
-//        FullTimeEmployee emp1 = new FullTimeEmployee("Senyo", 2558, 520);
-//        PartTimeEmployee emp2 = new PartTimeEmployee("Wisdom", 255, 8, 520);
-//
-//        System.out.println("Full Time Employee Annual Salary: $"  +  emp1.calculateAnnualSalary());
-//        System.out.println("Part Time Employee Annual Salary: $"  +  emp2.calculateAnnualSalary());
+        FullTimeEmployee emp1 = new FullTimeEmployee("Senyo", 2558, 520);
+        PartTimeEmployee emp2 = new PartTimeEmployee("Wisdom", 8, 520);
+
+        System.out.println("Full Time Employee Annual Salary: $"  +  emp1.calculateAnnualSalary());
+        System.out.println("Part Time Employee Annual Salary: $"  +  emp2.calculateAnnualSalary());
 //
 //
 //        Car car = new Car("Honda");
