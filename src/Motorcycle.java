@@ -3,7 +3,6 @@ public class Motorcycle extends Vehicle{
         super(brand);
     }
 
-
     @Override
     public void startEngine() {
         System.out.println("Starting Motorcycle Engine: " + brand);
